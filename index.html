@@ -45,7 +45,7 @@
       .container-md,
       .container-lg,
       .container-xl {
-        max-width: 75%;
+        max-width: 55%;
       }
 
     }
@@ -102,7 +102,6 @@
     <div class="brand">
       <img src="../assets/favicon.ico" alt="" width="30" height="30">
     </div>
-    <h3 class="ml-1">Gram</h3>
     <button class="btn-fab toggle-menu mr-3"><span class="ti ti-menu"></span></button>
   </div>
 
@@ -171,40 +170,49 @@
       </div> <!-- End profile -->
       <!-- Skills -->
       <div class="container mt-5 mb-5">
-        <div class="card" style="border-radius: 20px;">
-          <div class="card-body" style="border-radius: 20px;border-bottom:1.2px solid rgba(0, 0, 0, 0.125)">
-            <div class="row mb-1">
-              <div class="col-md-5">
-                <div class="img-place wow zoomIn">
-                  <img src="../assets/img/person.jpg" alt="Photo Profile">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="row">
-                  <div class="col-12 col-lg-5">
-                    <div class="caption wow fadeInRight">
-                      <h2 class="fg-dark">Raju Prasai</h2>
-                      <p class="fg-theme fw-medium"><i class="ti ti-user-code">&nbsp;</i>SWE / DBA</p>
-                      <p class="fw-medium">Sculpting Software, Mastering Data!</p>
-                      <ul class="theme-list">
-                        <li class="fg-dark"><b>From:</b> Jhapa, Nepal</li>
-                        <li class="fg-dark"><b>Lives In:</b> Jhapa, Nepal</li>
-                        <li class="fg-dark"><b>Age:</b> 28</li>
-                        <li class="fg-dark"><b>Gender:</b> Male</li>
-                      </ul>
-                      <button class="btn btn-theme btn-rounded"><i class="ti ti-download">&nbsp;</i> Download CV</button>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="border-radius: 20px;">
+              <div class="card-body" style="border-radius: 20px;border-bottom:1.2px solid rgba(0, 0, 0, 0.125);padding-bottom:0.1rem">
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <div class="img-place wow zoomIn">
+                      <img src="../assets/img/person.jpg" alt="Photo Profile">
                     </div>
                   </div>
-                  <div class="col-12 col-lg-7 mt-5">
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="rajuprasai" data-version="v1">
-                      <a class="badge-base__link LI-simple-link" href="https://np.linkedin.com/in/rajuprasai?trk=profile-badge"></a>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="caption wow fadeInRight">
+                          <h2 class="fg-dark">Raju Prasai</h2>
+                          <p class="fg-theme fw-medium"><i class="ti ti-user-code">&nbsp;</i>SWE / DBA</p>
+                          <p class="fw-medium">Sculpting Software, Mastering Data!</p>
+                          <ul class="theme-list">
+                            <li class="fg-dark"><b>From:</b> Jhapa, Nepal</li>
+                            <li class="fg-dark"><b>Lives In:</b> Jhapa, Nepal</li>
+                            <li class="fg-dark"><b>Age:</b> 28</li>
+                            <li class="fg-dark"><b>Gender:</b> Male</li>
+                          </ul>
+                          <a class="btn btn-theme btn-rounded" href="https://t.me/TheCrossLegCoder" target="_blank"><i class="ti ti-brand-telegram">&nbsp;</i> Contact Me</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card-footer mt-3 bg-white"
+          <!-- <div class="col-12 col-xl-2 ml-3">
+            <div class="row mb-1 mt-4">
+              <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="rajuprasai" data-version="v1">
+                <a class="badge-base__link LI-simple-link" href="https://np.linkedin.com/in/rajuprasai?trk=profile-badge"></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        
+
+        <!-- <div class="card-footer mt-3 bg-white"
             style="border-top:none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;line-height: 25px;">
             <div class="row">
               <div class="col-md-6 pr-5">
@@ -278,8 +286,7 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> -->
 
       </div> <!-- End skills -->
       <!-- Resume -->
@@ -812,7 +819,8 @@
     </div> End page blog -->
 
     <!-- Page Contact -->
-    <div class="container vg-page page-contact" id="contact">
+    <!--
+      <div class="container vg-page page-contact" id="contact">
       <h1 class="text-center fg-dark wow fadeInUp">Contact</h1>
       <div class="container-fluid">
         <div class="row py-5">
@@ -821,7 +829,7 @@
               <div id="google-maps" style="width: 100%; height: 100%;" class="btn-theme"></div>
             </div>
           </div>
-          <!-- <div class="col-lg-5">
+           <div class="col-lg-5">
             <h1 class="text-center fw-normal wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Let's
               be in touch?</h1>
             <form class="vg-contact-form" action="send_email.php" method="post">
@@ -841,13 +849,13 @@
                 <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
               </div>
             </form>
-          </div> -->
+          </div> 
         </div>
       </div>
-    </div> <!-- End page contact -->
+    </div> --><!-- End page contact -->
 
     <!-- Footer -->
-    <div class="vg-footer">
+    <div class="vg-footer" id="contact">
       <!-- <h1 class="text-center">Virtual Folio</h1> -->
       <div class="container">
         <div class="row">
